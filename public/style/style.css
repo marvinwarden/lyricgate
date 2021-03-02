@@ -1,0 +1,75 @@
+/* html,
+body {
+  height: 100%;
+} */
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: repeating-linear-gradient( rgb(255, 140, 140), rgb(255, 158, 93));
+}
+
+/* Index Form */
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+ 
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: 10px;
+  
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  
+}
+
+.input-top {
+    margin-bottom: 5px;
+}
+
+/* Lyrics Display Page */
+
+.lyric-heading {
+    display: inline;
+    position: relative;
+}
+
+.song-heading {
+    margin-top: 200px;
+}
+
+.lyric-container {
+    text-align: center;
+   
+    
+}
+
+.song-lyrics {
+    padding: 100px 0;
+    width: 20%;
+    
+    
+    
+}
